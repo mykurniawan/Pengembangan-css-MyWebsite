@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>Pengembangan CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,700&display=swap');
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            ;
+            background-image: linear-gradient(to left, #D0D3C5, #56B1BF, #08708A);
+        }
+
+
+        nav h1 {
+            color: #D0D3C5;
+            padding-top: 20px;
+            padding-left: 30px;
+            margin-bottom: 0px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #D0D3C5;
+        }
+
+        .container {
+            border-radius: solid;
+            width: 800px;
+            margin: 0 auto;
+            background-color: #56B1BF;
+        }
+
+        .hero {
+            background-image: linear-gradient(to right, #D0D3C5, #08708A, #D0D3C5);
+            margin-top: 0;
+            background-color: #D0D3C5;
+            background-size: cover;
+            background-position-y: -70px;
+            height: 300px;
+            border-top: 5px solid #D73A31;
+            border-bottom: 5px solid #D73A31;
+        }
+
+        .content {
+            padding: 15px;
+        }
+
+        .content h2 {
+            margin-bottom: 1px;
+        }
+
+        p {
+            color: black;
+        }
+
+        .copyright {
+            color: #D0D3C5;
+        }
+
+        .author {
+            color: #D0D3C5;
+        }
+
+        .footer {
+            background-color: #D73A31;
+            text-align: center;
+            padding: 5px 0;
+            color: #D0D3C5;
+        }
+
+        .hrr {
+            margin-right: 620px;
+            width: 150px;
+        }
+
+        .namaWeb {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header  -->
+    <div class="container">
+        <div class="header">
+            <nav>
+                <h1 class="namaWeb">MyWebsite</h1>
+                <hr class="hrr">
+                <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>About</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Product</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- header  -->
+
+        <!-- hero  -->
+        <div class="hero">
+
+        </div>
+        <!-- hero  -->
+
+        <!-- content  -->
+
+        <div class="content">
+            <h1>Cascading Style Sheets</h1>
+            <small>Ditulis oleh <span class="author">M. Yoga Kurniawan</span></small> <br>
+            <small>NIM : <span class="author">21510011</span></small>
+            <hr>
+
+            <h2>Apa Itu CSS ?</h2>
+            <p>CSS dipakai untuk mendesain halaman depan atau tampilan website (front end). CSS menangani tampilan dan
+                ‘rasa’ dari halaman website. Ada banyak hal yang dapat Anda lakukan menggunakan CSS dibandingkan dengan
+                bahasa pemrograman inti seperti HTML dan PHP. Ketika menggunakan CSS, Anda dapat mengatur warna teks,
+                jenis font, baris antar paragraf, ukuran kolom, dan jenis background yang dipakai.
+            </p>
+
+            <P>
+                Tidak hanya itu CSS juga bisa untuk mendesain layout, variasi tampilan di berbagai perangkat yang
+                berbeda, dan berbagai efek yang dipakai di dalam website. CSS sangat mudah dipelajari, tapi juga
+                powerful karena dapat mengontrol penyajian tampilan dari dokumen HTML. Mulai dari yang simpel sampai
+                kompleks. Tidak heran jika saat ini CSS hampir dipakai di berbagai website untuk dikombinasikan dengan
+                HTML maupun PHP.
+            </P>
+            <h2>Fungsi - Fungsi CSS</h2>
+            <p>
+                1. Mempercepat Proses Desain <br><br>
+                Apa yang akan Anda lakukan jika menggunakan desain yang sama di beberapa halaman HTML? Anda mungkin akan
+                menyalin satu per satu ke setiap file halaman.
+            </p><br>
+            <p>
+                2. Halaman Lebih Cepat Dimuat <br><br>
+                Jika menggunakan CSS, Anda tidak perlu menuliskan atribut tag HTML di setiap file. Anda hanya cukup
+                menulis satu aturan CSS dan menerapkannya di berbagai file yang membutuhkannya hanya dengan
+                memanggilnya.
+            </p><br>
+            <p>
+                3. Proses Pemeliharaan Mudah <br><br>
+                CSS memudahkan Anda untuk mengubah tampilan di berbagai halaman. Hanya dengan mengubah fungsi style di
+                file CSS maka seluruh tampilan yang menggunakan fungsi tersebut akan berubah secara otomatis.
+            </p><br>
+            <p>
+                4. Style Lebih Beragam Dibanding HTML <br><br>
+                CSS mempunyai atribut lebih beragam dibandingkan dengan HTML. Apa keuntungannya? Anda mempunyai lebih
+                banyak pilihan tampilan halaman website.
+            </p><br>
+            <p>
+                5. Kompatibel Dengan Berbagai Macam Perangkat <br><br>
+                CSS memungkinkan konten Anda dapat dioptimasi di lebih dari satu perangkat. Misal ketika memproses
+                sebuah dokumen. Jika menggunakan CSS, Anda bisa menyesuaikan tampilan dokumen di perangkat versi lama
+                sekaligus di versi yang baru.
+            </p><br>
+            <p>
+                6. CSS Menjadi Standar Pengembangan Website <br><br>
+                Hampir seluruh website yang ada di internet menggunakan CSS di dalamnya. Selain tampilannya yang lebih
+                menarik, kebanyakan browser populer saat ini juga mendukung CSS. Jadi jika Anda ingin mengembangkan
+                website yang sesuai standar browser populer, sebaiknya gunakan CSS. Anda pasti juga ingin website dapat
+                kompatibel dengan berbagai macam browser kan?.
+            </p>
+        </div>
+        <!-- content  -->
+
+        <!-- footer  -->
+        <div class="footer">
+            <p class="copyright">&copy;Copyright 2021 M. Yoga Kurniawan all right reserved</p>
+            <p class="copyright">MyWebsite</p>
+
+        </div>
+        <!-- footer  -->
+    </div>
+</body>
+
+</html>
